@@ -6,9 +6,12 @@ void greetBlack(){
 
 
 void greetWhite(){
-    puts("hello everyone\n");
+    puts("hello white\n");
 }
 
 int main(void){
+    puts("hello everyone\n");
+    greetWhite();
+    greetBlack();
     return 0;
 }
