@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void greetWhite(){
-    puts("hello white\n");
+    puts("hello everyone\n");
 }
 
 int main(void){
