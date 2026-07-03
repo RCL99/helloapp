@@ -1,0 +1,91 @@
+# Compiled object files
+*.o
+*.obj
+*.ko
+
+# Precompiled Headers
+*.gch
+*.pch
+*.chi
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.dylib
+*.dll
+*.so
+*.so.*
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.com
+*.elf
+
+# Debug files
+*.dSYM/
+*.pdb
+*.idb
+*.ilk
+
+# Build directories
+build/
+cmake-build-*/
+_build/
+out/
+target/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeUserPresets.json
+
+# Meson
+meson-private/
+meson-info/
+meson-logs/
+
+# Autotools
+Makefile.in
+aclocal.m4
+config.h.in
+configure
+autom4te.cache/
+config.status
+config.log
+libtool
+stamp-h1
+
+# Compiled Python files (from embedded Python)
+__pycache__/
+*.pyc
+
+# Valgrind
+vgcore.*
+
+# Sanitizer output
+*.sanitize
+
+# Core dumps
+core
+core.*
