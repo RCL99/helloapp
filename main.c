@@ -1,6 +1,9 @@
 #include <stdio.h>
 
+void greetWhite(){
+    puts("hello white\n");
+}
+
 int main(void){
-    puts("hello\n");
     return 0;
 }
